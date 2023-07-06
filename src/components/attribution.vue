@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <div class="mx-auto text-center">
     <p class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener"
@@ -16,8 +16,8 @@
 
 <style scoped lang="scss">
 .attribution {
-  font-size: 11px;
-  text-align: center;
+  display: inline;
+  font-size: 12px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
