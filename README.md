@@ -46,8 +46,8 @@ Desktop View
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/age-calculator-app-using-vue-3-yMz827kyB2)
+- Live Site URL: [age-calculator-app-ns on vercel](https://age-calculator-app-ns.vercel.app/)
 
 ## My process
 
