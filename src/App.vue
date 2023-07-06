@@ -5,17 +5,20 @@ import Attribution from "./components/attribution.vue";
 </script>
 
 <template>
-  <main>
-    <CalculatorContainer></CalculatorContainer>
+  <main class="h-screen grid content-between">
+    <div class="mx-auto grid place-content-center | content">
+      <CalculatorContainer></CalculatorContainer>
+    </div>
     <Attribution></Attribution>
   </main>
 </template>
 
 <style scoped lang="scss">
-main {
-  min-height: 100vh;
-  min-height: 100dvh;
-  display: grid;
-  align-content: space-between;
+@use "./style.scss" as *;
+
+.content {
+  width: min(92.5%, $md-break);
+  height: 92.5vh;
+  height: 92.5dvh;
 }
 </style>
